@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7DDB4F471BB8D3B10057C357 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DDB4F461BB8D3B10057C357 /* main.m */; };
+		7DDB4F4A1BB8D3B10057C357 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DDB4F491BB8D3B10057C357 /* AppDelegate.m */; };
+		7DDB4F4D1BB8D3B10057C357 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DDB4F4C1BB8D3B10057C357 /* ViewController.m */; };
+		7DDB4F501BB8D3B10057C357 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DDB4F4E1BB8D3B10057C357 /* Main.storyboard */; };
+		7DDB4F521BB8D3B10057C357 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DDB4F511BB8D3B10057C357 /* Images.xcassets */; };
+		7DDB4F551BB8D3B10057C357 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DDB4F531BB8D3B10057C357 /* LaunchScreen.xib */; };
+		7DDB4F611BB8D3B20057C357 /* EBTCountDownTimeLabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DDB4F601BB8D3B20057C357 /* EBTCountDownTimeLabelTests.m */; };
+		7DDB4F6D1BB8D3F60057C357 /* EBTCountDownTimeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DDB4F6C1BB8D3F60057C357 /* EBTCountDownTimeLabel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7DDB4F5B1BB8D3B10057C357 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7DDB4F391BB8D3B10057C357 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DDB4F401BB8D3B10057C357;
+			remoteInfo = EBTCountDownTimeLabel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7DDB4F411BB8D3B10057C357 /* EBTCountDownTimeLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EBTCountDownTimeLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DDB4F451BB8D3B10057C357 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DDB4F461BB8D3B10057C357 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7DDB4F481BB8D3B10057C357 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7DDB4F491BB8D3B10057C357 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7DDB4F4B1BB8D3B10057C357 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7DDB4F4C1BB8D3B10057C357 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7DDB4F4F1BB8D3B10057C357 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7DDB4F511BB8D3B10057C357 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7DDB4F541BB8D3B10057C357 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7DDB4F5A1BB8D3B10057C357 /* EBTCountDownTimeLabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EBTCountDownTimeLabelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DDB4F5F1BB8D3B10057C357 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DDB4F601BB8D3B20057C357 /* EBTCountDownTimeLabelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EBTCountDownTimeLabelTests.m; sourceTree = "<group>"; };
+		7DDB4F6B1BB8D3F60057C357 /* EBTCountDownTimeLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBTCountDownTimeLabel.h; sourceTree = "<group>"; };
+		7DDB4F6C1BB8D3F60057C357 /* EBTCountDownTimeLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBTCountDownTimeLabel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7DDB4F3E1BB8D3B10057C357 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DDB4F571BB8D3B10057C357 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7DDB4F381BB8D3B10057C357 = {
+			isa = PBXGroup;
+			children = (
+				7DDB4F431BB8D3B10057C357 /* EBTCountDownTimeLabel */,
+				7DDB4F5D1BB8D3B10057C357 /* EBTCountDownTimeLabelTests */,
+				7DDB4F421BB8D3B10057C357 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7DDB4F421BB8D3B10057C357 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7DDB4F411BB8D3B10057C357 /* EBTCountDownTimeLabel.app */,
+				7DDB4F5A1BB8D3B10057C357 /* EBTCountDownTimeLabelTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DDB4F431BB8D3B10057C357 /* EBTCountDownTimeLabel */ = {
+			isa = PBXGroup;
+			children = (
+				7DDB4F6A1BB8D3E40057C357 /* EBTCountDownTimeLabel */,
+				7DDB4F481BB8D3B10057C357 /* AppDelegate.h */,
+				7DDB4F491BB8D3B10057C357 /* AppDelegate.m */,
+				7DDB4F4B1BB8D3B10057C357 /* ViewController.h */,
+				7DDB4F4C1BB8D3B10057C357 /* ViewController.m */,
+				7DDB4F4E1BB8D3B10057C357 /* Main.storyboard */,
+				7DDB4F511BB8D3B10057C357 /* Images.xcassets */,
+				7DDB4F531BB8D3B10057C357 /* LaunchScreen.xib */,
+				7DDB4F441BB8D3B10057C357 /* Supporting Files */,
+			);
+			path = EBTCountDownTimeLabel;
+			sourceTree = "<group>";
+		};
+		7DDB4F441BB8D3B10057C357 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7DDB4F451BB8D3B10057C357 /* Info.plist */,
+				7DDB4F461BB8D3B10057C357 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7DDB4F5D1BB8D3B10057C357 /* EBTCountDownTimeLabelTests */ = {
+			isa = PBXGroup;
+			children = (
+				7DDB4F601BB8D3B20057C357 /* EBTCountDownTimeLabelTests.m */,
+				7DDB4F5E1BB8D3B10057C357 /* Supporting Files */,
+			);
+			path = EBTCountDownTimeLabelTests;
+			sourceTree = "<group>";
+		};
+		7DDB4F5E1BB8D3B10057C357 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7DDB4F5F1BB8D3B10057C357 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7DDB4F6A1BB8D3E40057C357 /* EBTCountDownTimeLabel */ = {
+			isa = PBXGroup;
+			children = (
+				7DDB4F6B1BB8D3F60057C357 /* EBTCountDownTimeLabel.h */,
+				7DDB4F6C1BB8D3F60057C357 /* EBTCountDownTimeLabel.m */,
+			);
+			path = EBTCountDownTimeLabel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7DDB4F401BB8D3B10057C357 /* EBTCountDownTimeLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DDB4F641BB8D3B20057C357 /* Build configuration list for PBXNativeTarget "EBTCountDownTimeLabel" */;
+			buildPhases = (
+				7DDB4F3D1BB8D3B10057C357 /* Sources */,
+				7DDB4F3E1BB8D3B10057C357 /* Frameworks */,
+				7DDB4F3F1BB8D3B10057C357 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EBTCountDownTimeLabel;
+			productName = EBTCountDownTimeLabel;
+			productReference = 7DDB4F411BB8D3B10057C357 /* EBTCountDownTimeLabel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7DDB4F591BB8D3B10057C357 /* EBTCountDownTimeLabelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DDB4F671BB8D3B20057C357 /* Build configuration list for PBXNativeTarget "EBTCountDownTimeLabelTests" */;
+			buildPhases = (
+				7DDB4F561BB8D3B10057C357 /* Sources */,
+				7DDB4F571BB8D3B10057C357 /* Frameworks */,
+				7DDB4F581BB8D3B10057C357 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7DDB4F5C1BB8D3B10057C357 /* PBXTargetDependency */,
+			);
+			name = EBTCountDownTimeLabelTests;
+			productName = EBTCountDownTimeLabelTests;
+			productReference = 7DDB4F5A1BB8D3B10057C357 /* EBTCountDownTimeLabelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7DDB4F391BB8D3B10057C357 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = com.csst;
+				TargetAttributes = {
+					7DDB4F401BB8D3B10057C357 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					7DDB4F591BB8D3B10057C357 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 7DDB4F401BB8D3B10057C357;
+					};
+				};
+			};
+			buildConfigurationList = 7DDB4F3C1BB8D3B10057C357 /* Build configuration list for PBXProject "EBTCountDownTimeLabel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7DDB4F381BB8D3B10057C357;
+			productRefGroup = 7DDB4F421BB8D3B10057C357 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7DDB4F401BB8D3B10057C357 /* EBTCountDownTimeLabel */,
+				7DDB4F591BB8D3B10057C357 /* EBTCountDownTimeLabelTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7DDB4F3F1BB8D3B10057C357 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DDB4F501BB8D3B10057C357 /* Main.storyboard in Resources */,
+				7DDB4F551BB8D3B10057C357 /* LaunchScreen.xib in Resources */,
+				7DDB4F521BB8D3B10057C357 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DDB4F581BB8D3B10057C357 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7DDB4F3D1BB8D3B10057C357 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DDB4F4D1BB8D3B10057C357 /* ViewController.m in Sources */,
+				7DDB4F6D1BB8D3F60057C357 /* EBTCountDownTimeLabel.m in Sources */,
+				7DDB4F4A1BB8D3B10057C357 /* AppDelegate.m in Sources */,
+				7DDB4F471BB8D3B10057C357 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DDB4F561BB8D3B10057C357 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DDB4F611BB8D3B20057C357 /* EBTCountDownTimeLabelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7DDB4F5C1BB8D3B10057C357 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7DDB4F401BB8D3B10057C357 /* EBTCountDownTimeLabel */;
+			targetProxy = 7DDB4F5B1BB8D3B10057C357 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7DDB4F4E1BB8D3B10057C357 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DDB4F4F1BB8D3B10057C357 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7DDB4F531BB8D3B10057C357 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DDB4F541BB8D3B10057C357 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7DDB4F621BB8D3B20057C357 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7DDB4F631BB8D3B20057C357 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7DDB4F651BB8D3B20057C357 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EBTCountDownTimeLabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7DDB4F661BB8D3B20057C357 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EBTCountDownTimeLabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7DDB4F681BB8D3B20057C357 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EBTCountDownTimeLabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EBTCountDownTimeLabel.app/EBTCountDownTimeLabel";
+			};
+			name = Debug;
+		};
+		7DDB4F691BB8D3B20057C357 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EBTCountDownTimeLabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EBTCountDownTimeLabel.app/EBTCountDownTimeLabel";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7DDB4F3C1BB8D3B10057C357 /* Build configuration list for PBXProject "EBTCountDownTimeLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DDB4F621BB8D3B20057C357 /* Debug */,
+				7DDB4F631BB8D3B20057C357 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DDB4F641BB8D3B20057C357 /* Build configuration list for PBXNativeTarget "EBTCountDownTimeLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DDB4F651BB8D3B20057C357 /* Debug */,
+				7DDB4F661BB8D3B20057C357 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7DDB4F671BB8D3B20057C357 /* Build configuration list for PBXNativeTarget "EBTCountDownTimeLabelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DDB4F681BB8D3B20057C357 /* Debug */,
+				7DDB4F691BB8D3B20057C357 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7DDB4F391BB8D3B10057C357 /* Project object */;
+}

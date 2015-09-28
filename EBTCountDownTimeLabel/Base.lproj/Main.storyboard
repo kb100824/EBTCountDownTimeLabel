@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SRD-0g-oT4">
+                                <rect key="frame" x="153" y="227" width="69" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="69" id="Rty-Ki-rjo"/>
+                                    <constraint firstAttribute="height" constant="30" id="rX2-iJ-9OF"/>
+                                </constraints>
+                                <state key="normal" title="天时分秒">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnClick:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="8MF-0A-7ls"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kWh-xG-eRN" customClass="EBTCountDownTimeLabel">
+                                <rect key="frame" x="93" y="265" width="188" height="21"/>
+                                <color key="backgroundColor" red="0.94509803920000002" green="0.94901960780000005" blue="0.93725490199999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="kej-KS-UMM"/>
+                                    <constraint firstAttribute="width" constant="188" id="nJ3-5X-QLF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pog-pW-AEZ">
+                                <rect key="frame" x="153" y="136" width="69" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="aox-4v-hJa"/>
+                                    <constraint firstAttribute="width" constant="69" id="d4S-K7-6Jg"/>
+                                </constraints>
+                                <state key="normal" title="时分秒">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnAction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="9I4-UF-kMa"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PKc-R5-u21" customClass="EBTCountDownTimeLabel">
+                                <rect key="frame" x="93" y="174" width="188" height="21"/>
+                                <color key="backgroundColor" red="0.94509803920000002" green="0.94901960780000005" blue="0.93725490199999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="188" id="H1p-sa-JM2"/>
+                                    <constraint firstAttribute="height" constant="21" id="vvG-24-hIV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="PKc-R5-u21" secondAttribute="centerX" id="1qg-qf-Uxh"/>
+                            <constraint firstAttribute="centerY" secondItem="kWh-xG-eRN" secondAttribute="centerY" constant="26" id="484-34-2li"/>
+                            <constraint firstAttribute="centerX" secondItem="kWh-xG-eRN" secondAttribute="centerX" id="5Ps-mG-b7Y"/>
+                            <constraint firstItem="SRD-0g-oT4" firstAttribute="top" secondItem="PKc-R5-u21" secondAttribute="bottom" constant="32" id="5gv-qC-nd6"/>
+                            <constraint firstAttribute="centerX" secondItem="pog-pW-AEZ" secondAttribute="centerX" id="hNo-p9-EKv"/>
+                            <constraint firstItem="PKc-R5-u21" firstAttribute="top" secondItem="pog-pW-AEZ" secondAttribute="bottom" constant="8" id="i5j-N7-MCT"/>
+                            <constraint firstAttribute="centerX" secondItem="SRD-0g-oT4" secondAttribute="centerX" id="kYX-in-lzF"/>
+                            <constraint firstItem="kWh-xG-eRN" firstAttribute="top" secondItem="SRD-0g-oT4" secondAttribute="bottom" constant="8" id="t5s-at-sfX"/>
+                        </constraints>
+                    </view>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="lblDayToSecond" destination="kWh-xG-eRN" id="Grd-xV-uxk"/>
+                        <outlet property="lblHourToSecond" destination="PKc-R5-u21" id="VbE-hm-tAd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="304.5" y="428.5"/>
+        </scene>
+    </scenes>
+</document>
