@@ -39,8 +39,7 @@
 }
 
 #演示效果图
-
-
+![Image](https://github.com/KBvsMJ/EBTCountDownTimeLabel/blob/master/demo/1.gif)
 
 
 
