@@ -25,6 +25,11 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+/**
+ *  天时分秒
+ *
+ *  @param sender
+ */
 - (IBAction)btnClick:(UIButton *)sender {
     
    [_lblDayToSecond countDownTimer:20 countTimeType:EBTCountDownTimeTypeDayToSeconds completeHandler:^(NSString *countTime) {
@@ -36,6 +41,11 @@
        
    }];
 }
+/**
+ *  时分秒
+ *
+ *  @param sender
+ */
 - (IBAction)btnAction:(UIButton *)sender {
     [_lblHourToSecond countDownTimer:20 countTimeType:EBTCountDownTimeTypeHourToSeconds completeHandler:^(NSString *countTime) {
         
