@@ -13,7 +13,8 @@
  *
  *  @param sender
  */
-- (IBAction)btnClick:(UIButton *)sender {
+- (IBAction)btnClick:(UIButton *)sender 
+- {
     
    [_lblDayToSecond countDownTimer:20 countTimeType:EBTCountDownTimeTypeDayToSeconds completeHandler:^(NSString *countTime) {
        
@@ -30,7 +31,8 @@
  *
  *  @param sender
  */
-- (IBAction)btnAction:(UIButton *)sender {
+- (IBAction)btnAction:(UIButton *)sender
+- {
     [_lblHourToSecond countDownTimer:20 countTimeType:EBTCountDownTimeTypeHourToSeconds completeHandler:^(NSString *countTime) {
         
         NSLog(@"countTime = %@",countTime);
