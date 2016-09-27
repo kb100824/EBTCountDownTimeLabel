@@ -19,7 +19,9 @@
    [_lblDayToSecond countDownTimer:20 countTimeType:EBTCountDownTimeTypeDayToSeconds completeHandler:^(NSString *countTime) {
        
        NSLog(@"countTime = %@",countTime);
+
        if ([countTime isEqualToString:@"根据你设置的条件来移除倒计时"]) {
+
            [_lblDayToSecond removeCountDownTimer];
        }
        
@@ -36,7 +38,9 @@
     [_lblHourToSecond countDownTimer:20 countTimeType:EBTCountDownTimeTypeHourToSeconds completeHandler:^(NSString *countTime) {
         
         NSLog(@"countTime = %@",countTime);
+
         if ([countTime isEqualToString:@"根据你设置的条件来移除倒计时"]) {
+
             [_lblHourToSecond removeCountDownTimer];
         }
         
